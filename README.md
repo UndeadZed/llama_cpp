@@ -1,4 +1,4 @@
-# llama.cpp
+# This is a more usable version of llama.cpp
 
 ![llama](https://user-images.githubusercontent.com/1991296/227761327-6d83e30e-2200-41a6-bfbb-f575231c54f4.png)
 
@@ -14,7 +14,7 @@ Inference of [LLaMA](https://arxiv.org/abs/2302.13971) model in pure C/C++
 
 ## Description
 
-The main goal is to run the model using 4-bit quantization on a MacBook
+The main goal is to run the model using 4-bit quantization on windows laptop via wsl
 
 - Plain C/C++ implementation without dependencies
 - Apple silicon first-class citizen - optimized via ARM NEON and Accelerate framework
@@ -31,7 +31,7 @@ New features will probably be added mostly through community contributions.
 Supported platforms:
 
 - [X] Mac OS
-- [X] Linux
+- [X] Linux via wsl or virtual box
 - [X] Windows (via CMake)
 - [X] Docker
 
